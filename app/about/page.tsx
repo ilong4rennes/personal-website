@@ -14,7 +14,7 @@ export default function About() {
               Hello! I&#39;m Amanda Lu, an Information Systems student at Carnegie Mellon University, where I explore the fascinating intersection of technology and practical application.
             </p>
             <p className="text-xl leading-relaxed mb-4">
-              My professional experiences range from web development to strategic business analysis, where I've nurtured a knack for crafting solutions that resonate with user needs and business goals.
+              My professional experiences range from web development to strategic business analysis, where I&#39;ve nurtured a knack for crafting solutions that resonate with user needs and business goals.
             </p>
             <p className="text-xl leading-relaxed">
               When I&#39;m not at my computer I like to spend my time reading and learning about art history.
@@ -33,7 +33,7 @@ export default function About() {
 
       <section className="bg-gray-850 text-white py-16 px-36">
         <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-12">I'm a...</h2>
+            <h2 className="text-4xl font-bold mb-12">I&#39;m a...</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Developer Section */}
@@ -48,7 +48,7 @@ export default function About() {
             <div className="flex flex-col items-center">
                 <h3 className="text-2xl font-bold mb-4">Tech Enthusiast</h3>
                 <p className="text-lg leading-relaxed text-center">
-                Being fortunate to live in this exciting era, I take in a lot of information every day, but it's the transformation into knowledge that truly matters. I share what I learned regularly.
+                Being fortunate to live in this exciting era, I take in a lot of information every day, but it&#39;s the transformation into knowledge that truly matters. I share what I learned regularly.
                 </p>
             </div>
 
@@ -67,7 +67,7 @@ export default function About() {
         {/* make this section more horizontal padding: */} 
         <section className="bg-gray-900 text-white py-12 px-32 px-32">
         <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl font-bold mb-8">Let's get in touch!</h2>
+            <h2 className="text-3xl font-bold mb-8">Let&#39;s get in touch!</h2>
             <div className="flex justify-center space-x-8">
             {/* Email */}
             <a href="mailto:yichenlu@andrew.cmu.edu" className="flex items-center space-x-2 text-gray-300 hover:text-yellow-400">
