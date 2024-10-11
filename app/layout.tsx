@@ -4,6 +4,9 @@ import './globals.css';
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <>
+        <title>Amanda Lu</title> {/* Change this to the desired title */}
+      </>
       <body>
         <header className="bg-gray-900 p-6 shadow-lg">
           <nav className="max-w-7xl mx-auto flex justify-between items-center">
