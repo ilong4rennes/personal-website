@@ -13,7 +13,7 @@ const projects = [
   {
     year: '2024',
     title: 'New feature of NodeBB',
-    description: 'Implemetned new feature "Mark As Resolved" for NodeBB, a popular open-source forum software.',
+    description: 'Implemented new feature "Mark As Resolved" for NodeBB, a popular open-source forum software.',
     // stars: 2003,
     links: {
       source: 'https://github.com/CMU-313/nodebb-f24-the-turtles',
@@ -27,7 +27,6 @@ const projects = [
     links: {
       // article: '#',
       demo: '#',
-      source: 'https://github.com/project2',
     },
   },
   {
@@ -37,8 +36,8 @@ const projects = [
     // stars: 6838,
     links: {
       // article: '#',
-      demo: '#',
-      source: 'https://github.com/project3',
+      demo: 'https://amanda-lu.vercel.app/',
+      source: 'https://github.com/ilong4rennes/personal-website',
     },
   },
   {
@@ -47,7 +46,7 @@ const projects = [
     description: 'A command-line shell written in C.',
     // stars: 2003,
     links: {
-      source: 'https://github.com/CMU-313/nodebb-f24-the-turtles',
+      source: 'https://github.com/project2',
     },
   },
   {
@@ -56,7 +55,7 @@ const projects = [
     description: 'Command-line program that simulates cache memory, written in C.',
     // stars: 2003,
     links: {
-      source: 'https://github.com/CMU-313/nodebb-f24-the-turtles',
+      source: 'https://github.com/project2',
     },
   },
   {
@@ -65,7 +64,7 @@ const projects = [
     description: 'Virtual machine for the C0 and C1 languages, which are safe subsets of C.',
     // stars: 2003,
     links: {
-      source: '#',
+      source: 'https://github.com/ilong4rennes/c0-virtual-machine',
     },
   },
   {
@@ -76,7 +75,7 @@ const projects = [
     links: {
       // article: '#',
       demo: 'https://www.youtube.com/watch?v=FRCU4Q18MOc&t=12s',
-      source: '#',
+      source: 'https://github.com/ilong4rennes/sudoku-15112',
     },
   },
 ];
