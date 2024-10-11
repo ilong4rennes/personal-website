@@ -33,31 +33,47 @@ export default function About() {
 
       <section className="bg-gray-850 text-white py-16 px-36">
         <div className="max-w-7xl mx-auto text-center">
-            <h2 className="text-4xl font-bold mb-12">I&#39;m a...</h2>
+            <h2 className="text-4xl font-bold mb-12">Besides technical...</h2>
             
             <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             {/* Developer Section */}
             <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-4">Developer</h3>
-                <p className="text-lg leading-relaxed text-center">
+                <img 
+                    src="https://pic2.zhimg.com/80/v2-760a9555289fd30d82cee5c3d4321949_1440w.webp" 
+                    alt="Developer"
+                    className="w-90 h-42 mb-8 object-cover"
+                />
+                <h3 className="text-1xl font-bold mb-4">I love musicals!</h3>
+                {/* <p className="text-lg leading-relaxed text-center">
                 <a href="/" className="text-yellow-400 hover:underline">Here</a> are some projects I have completed throughout my journey as a developer. Each project has been a unique opportunity for me to develop my skills and learn new technologies.
-                </p>
+                </p> */}
             </div>
 
             {/* Tech Enthusiast Section */}
             <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-4">Tech Enthusiast</h3>
-                <p className="text-lg leading-relaxed text-center">
+                <img 
+                    src="https://pic3.zhimg.com/80/v2-6076b339db4d06e2df5c5020f146341c_1440w.webp" 
+                    alt="Developer"
+                    className="w-90 h-42 mb-8 object-cover"
+                />
+                <h3 className="text-1xl font-bold mb-4">I write <a href="/articles" className="text-yellow-400 hover:underline">short novels and poems</a>.</h3>
+                {/* <p className="text-lg leading-relaxed text-center">
                 Being fortunate to live in this exciting era, I take in a lot of information every day, but it&#39;s the transformation into knowledge that truly matters. I share what I learned regularly.
-                </p>
+                </p> */}
             </div>
 
+            {/* https://www.instagram.com/stories/highlights/17855194155113987/ */}
             {/* Writer Section */}
             <div className="flex flex-col items-center">
-                <h3 className="text-2xl font-bold mb-4">Writer</h3>
-                <p className="text-lg leading-relaxed text-center">
+                <img 
+                    src="https://pic4.zhimg.com/v2-c5245f59e1e5d63509120118719be875_r.jpg" 
+                    alt="Developer"
+                    className="w-90 h-42 mb-8 object-cover"
+                />
+                <h3 className="text-1xl font-bold mb-4">I practice <a href="https://www.instagram.com/stories/highlights/17855194155113987/" className="text-yellow-400 hover:underline">Calligraphy</a>.</h3>
+                {/* <p className="text-lg leading-relaxed text-center">
                 I wrote short novels and poems in Chinese. I see writing as a means to explore myself and share ideas with others.
-                </p>
+                </p> */}
             </div>
             </div>
         </div>
