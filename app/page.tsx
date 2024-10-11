@@ -86,9 +86,9 @@ export default function Home() {
     <Layout>
         <section className="flex flex-col md:flex-row justify-between items-center bg-gray-900 p-10 rounded-lg shadow-lg mb-10">
             <div className="md:w-2/3 text-white">
-                <h2 className="text-5xl font-bold mb-4">Hey, I'm Amanda</h2>
+                <h2 className="text-5xl font-bold mb-4">Hey, I&#39;m Amanda</h2>
                 <p className="text-xl mb-4">
-                    I'm a student studying Information Systems and Artificial Intelligence at Carnegie Mellon University.
+                    I&#39;m a student studying Information Systems and Artificial Intelligence at Carnegie Mellon University.
                 </p>
                 <p className="text-lg">
                     On this site, you can explore my projects, read some of my <a href="/articles" className="text-yellow-400 hover:underline">articles</a>, or learn more <a href="/about" className="text-yellow-400 hover:underline">about me</a>.
