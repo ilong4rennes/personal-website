@@ -8,8 +8,8 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <title>Amanda Lu</title>
       </>
       <body>
-        <header className="bg-neutral-800 py-6 px-18 shadow-[0_10px_30px_rgba(0,0,0,0.8)]">
-          <nav className="max-w-7xl mx-auto flex justify-between items-center">
+        <header className="bg-neutral-800 py-6 px-4 sm:px-6 lg:px-18 shadow-[0_10px_30px_rgba(0,0,0,0.8)]">
+          <nav className="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center">
             <div className="flex items-center space-x-4">
               {/* Favicon as an image, linking back to home */}
               <Link href="/">
@@ -25,7 +25,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </h1>
             </div>
 
-            <ul className="flex space-x-6">
+            <ul className="flex space-x-4 sm:space-x-6 mt-4 sm:mt-0">
               {/* Add `text-yellow-400` class manually to the active page */}
               <li>
                 <Link
@@ -56,7 +56,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         </header>
 
         {/* Centered content with increased spacing between sections */}
-        <main className="py-20 px-52 bg-neutral-800 text-gray-200">
+        <main className="py-10 px-4 sm:px-6 lg:px-52 bg-neutral-800 text-gray-200">
           {children}
         </main>
       </body>
