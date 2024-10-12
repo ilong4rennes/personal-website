@@ -83,7 +83,7 @@ const projects = [
 export default function Home() {
   return (
     <Layout>
-        <section className="flex flex-col md:flex-row justify-between items-center bg-gray-900 p-10 rounded-lg shadow-lg mb-10">
+        <section className="flex flex-col md:flex-row justify-between items-center bg-neutral-800 p-10 rounded-lg">
             <div className="md:w-2/3 text-white">
                 <h2 className="text-5xl font-bold mb-4">Hey, I&#39;m Amanda</h2>
                 <p className="text-xl mb-4">
@@ -104,13 +104,13 @@ export default function Home() {
 
         <section className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
           {projects.map((project, index) => (
-            <div key={index} className="bg-gray-700 rounded-lg p-6 shadow-2xl hover:shadow-8xl transition-shadow duration-300">
+            <div key={index} className="bg-neutral-700 rounded-lg p-6 shadow-2xl hover:shadow-8xl transition-shadow duration-300">
               <div className="flex items-center justify-between mb-4">
                 <span className="text-yellow-400 text-sm font-semibold">{project.year}</span>
                 {/* <span className="text-sm text-gray-400">{project.stars} ⭐</span> */}
               </div>
               <h3 className="text-xl font-bold text-white mb-2">{project.title}</h3>
-              <p className="text-gray-400 mb-4">{project.description}</p>
+              <p className="text-neutral-400 mb-4">{project.description}</p>
               <div className="space-x-4">
                 {/* {project.links.article && (
                   <a href={project.links.article} className="bg-gray-500 px-4 py-2 rounded text-white hover:bg-gray-600">
@@ -118,11 +118,11 @@ export default function Home() {
                   </a>
                 )} */}
                 {project.links.demo && (
-                  <a href={project.links.demo} className="bg-gray-500 px-4 py-2 rounded text-white hover:bg-gray-600">
+                  <a href={project.links.demo} className="bg-neutral-500 px-4 py-2 rounded text-white hover:bg-neutral-600">
                     Demo
                   </a>
                 )}
-                <a href={project.links.source} className="bg-gray-500 px-4 py-2 rounded text-white hover:bg-gray-600">
+                <a href={project.links.source} className="bg-neutral-500 px-4 py-2 rounded text-white hover:bg-neutral-600">
                   Source
                 </a>
               </div>

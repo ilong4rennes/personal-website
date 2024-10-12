@@ -31,7 +31,7 @@ export default function About() {
         </div>
       </div>
 
-      <section className="bg-gray-850 text-white py-16 px-36">
+      <section className="bg-gray-850 text-white py-16 px-4 sm:px-6 lg:px-16">
         <div className="max-w-7xl mx-auto text-center">
             <h2 className="text-4xl font-bold mb-12">Besides technical...</h2>
             
@@ -41,7 +41,7 @@ export default function About() {
                 <img 
                     src="https://pic2.zhimg.com/80/v2-760a9555289fd30d82cee5c3d4321949_1440w.webp" 
                     alt="Developer"
-                    className="w-90 h-42 mb-8 object-cover"
+                    className="w-90 h-42 mb-8 object-cover rounded-lg shadow-lg"
                 />
                 <h3 className="text-1xl font-bold mb-4">I love musicals!</h3>
                 {/* <p className="text-lg leading-relaxed text-center">
@@ -54,7 +54,7 @@ export default function About() {
                 <img 
                     src="https://pic3.zhimg.com/80/v2-6076b339db4d06e2df5c5020f146341c_1440w.webp" 
                     alt="Developer"
-                    className="w-90 h-42 mb-8 object-cover"
+                    className="w-90 h-42 mb-8 object-cover rounded-lg shadow-lg"
                 />
                 <h3 className="text-1xl font-bold mb-4">I write <a href="/articles" className="text-yellow-400 hover:underline">short novels and poems</a>.</h3>
                 {/* <p className="text-lg leading-relaxed text-center">
@@ -68,7 +68,7 @@ export default function About() {
                 <img 
                     src="https://pic4.zhimg.com/v2-c5245f59e1e5d63509120118719be875_r.jpg" 
                     alt="Developer"
-                    className="w-90 h-42 mb-8 object-cover"
+                    className="w-90 h-42 mb-8 object-cover rounded-lg shadow-lg"
                 />
                 <h3 className="text-1xl font-bold mb-4">I practice <a href="https://www.instagram.com/stories/highlights/17855194155113987/" className="text-yellow-400 hover:underline">Calligraphy</a>.</h3>
                 {/* <p className="text-lg leading-relaxed text-center">
@@ -81,7 +81,7 @@ export default function About() {
 
 
         {/* make this section more horizontal padding: */} 
-        <section className="bg-gray-900 text-white py-12 px-32 px-32">
+        <section className="bg-neutral-900 text-white py-12 px-32 px-32 rounded-lg shadow-lg">
         <div className="max-w-2xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-8">Let&#39;s get in touch!</h2>
             <div className="flex justify-center space-x-8">
