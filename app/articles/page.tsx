@@ -71,7 +71,7 @@ export default function Articles() {
           <div className="space-y-4 mb-8">
             <div className="flex justify-between">
               <Link href="/articles/article1" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
-                &#39;Siren and Sibyl&#39;: Exploring Symbolism in Dante Gabriel Rossetti's Art and Poetry
+                &#39;Siren and Sibyl&#39;: Exploring Symbolism in Dante Gabriel Rossetti&#39;s Art and Poetry
               </Link>
               <span className="text-sm text-gray-400">Oct 09</span>
             </div>
