@@ -1,5 +1,8 @@
+import Layout from '../../layout';
+
 export default function Article1() {
     return (
+      <Layout>
       <div className="min-h-screen bg-neutral-800 text-black p-10">
         <div className="max-w-3xl mx-auto">
           <header className="text-center mb-10">
@@ -13,6 +16,7 @@ export default function Article1() {
           </section>
         </div>
       </div>
+      </Layout>
     );
   }
   
