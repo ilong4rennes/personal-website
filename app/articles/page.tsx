@@ -19,7 +19,7 @@ export default function Articles() {
           <h2 className="text-4xl font-semibold mb-6 text-yellow-400">Short Novels</h2>
           <div className="space-y-4 mb-8">
             <div className="flex justify-between">
-              <Link href="/articles/lao-chen" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
+              <Link href="https://wiggly-bison-1cc.notion.site/11ee26051ec180a8ada2fa837c5ce2ad" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
                 老陈 Lao Chen
               </Link>
               <span className="text-sm text-gray-400">Jan 27</span>
@@ -35,48 +35,48 @@ export default function Articles() {
           {/* Category 3: Poems */}
           <h2 className="text-4xl font-semibold mb-6 text-yellow-400">Poems</h2>
           <div className="space-y-4 mb-8">
-            <div className="flex justify-between">
+            {/* <div className="flex justify-between">
               <Link href="/articles/fox" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
                 狐 Fox
               </Link>
               <span className="text-sm text-gray-400">Mar 15</span>
-            </div>
+            </div> */}
             <div className="flex justify-between">
-              <Link href="/articles/uncertainty" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
+              <Link href="https://mp.weixin.qq.com/s/dqlg12lLCUV5AE5_SQvBZw" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
                 不确定性是我爱这个世界的理由 Uncertainty is the Reason I Love the World
               </Link>
               <span className="text-sm text-gray-400">May 22</span>
             </div>
           </div>
 
-          {/* Category 4: Life */}
+          {/* Category 3: Life */}
           <h2 className="text-4xl font-semibold mb-6 text-yellow-400">Life</h2>
           <div className="space-y-4 mb-8">
             <div className="flex justify-between">
-              <Link href="/articles/remember" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
+              <Link href="https://mp.weixin.qq.com/s/m7YV7EVopohmlxTRdZoUPw" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
                 因为我们都记得 The Reason We Remember
               </Link>
               <span className="text-sm text-gray-400">Mar 15</span>
             </div>
             <div className="flex justify-between">
-              <Link href="/articles/tokyo-flash" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
+              <Link href="https://mp.weixin.qq.com/s/gyzky0B_HjkUm7LkLJV0TA" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
                 东京闪景 Tokyo Flash
               </Link>
               <span className="text-sm text-gray-400">May 22</span>
             </div>
           </div>
 
-          {/* Category 1: Essays */}
+          {/* Category 4: Essays */}
           <h2 className="text-4xl font-semibold mb-6 text-yellow-400">Commentaries</h2>
           <div className="space-y-4 mb-8">
             <div className="flex justify-between">
-              <Link href="/articles/article1" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
+              <Link href="https://wiggly-bison-1cc.notion.site/Siren-and-Sibyl-Exploring-Symbolism-in-Dante-Gabriel-Rossetti-s-Art-and-Poetry-11ee26051ec180f48721e1ccd7833b9b" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
                 &#39;Siren and Sibyl&#39;: Exploring Symbolism in Dante Gabriel Rossetti&#39;s Art and Poetry
               </Link>
               <span className="text-sm text-gray-400">Oct 09</span>
             </div>
             <div className="flex justify-between">
-              <Link href="/articles/article2" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
+              <Link href="https://wiggly-bison-1cc.notion.site/11ee26051ec180ee83fdc7606639d786" className="text-lg text-gray-300 hover:text-yellow-400 hover:underline">
               淡烟流水画屏幽 ——阿索林与汪曾祺如何通过小说的散文化淡化作品中的悲剧意识？
 
               </Link>
