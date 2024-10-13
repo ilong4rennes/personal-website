@@ -22,7 +22,7 @@ const projects = [
     title: 'GCPD Tracking System',
     description: 'A multi-user web application with a Ruby on Rails backend and a React frontend.',
     links: {
-      demo: '#',
+      source: 'https://github.com/ilong4rennes/crime-tracking-sys',
     },
   },
   {
@@ -39,7 +39,7 @@ const projects = [
     title: 'Linux Shell',
     description: 'A command-line shell written in C.',
     links: {
-      source: 'https://github.com/project2',
+      source: 'https://wiggly-bison-1cc.notion.site/How-to-Solve-the-Shell-Lab-at-CSAPP-A-Step-by-Step-Guide-11ee26051ec1806d9466f262a468b930',
     },
   },
   {
@@ -47,7 +47,7 @@ const projects = [
     title: 'Cache Memory Simulator',
     description: 'Command-line program that simulates cache memory, written in C.',
     links: {
-      source: 'https://github.com/project2',
+      source: 'https://wiggly-bison-1cc.notion.site/How-to-Solve-Cache-Lab-at-CSAPP-A-Detailed-Guide-11ee26051ec18094b617c7494e5918ed',
     },
   },
   {
