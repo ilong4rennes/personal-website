@@ -4,7 +4,26 @@
       "Bash(npx next:*)",
       "Bash(node_modules/.bin/next build:*)",
       "Bash(npm install:*)",
-      "Bash(npm run:*)"
+      "Bash(npm run:*)",
+      "Bash(cp \"/var/folders/kt/3hz_76js3sxc80h8k3_fzskc0000gn/T/TemporaryItems/NSIRD_screencaptureui_NYMjGg/Screenshot 2026-03-17 at 5.02.18 PM.png\" /Users/amandalu/Documents/03-Projects/personal-website/public/proj-dreamscope.png)",
+      "Bash(cp \"/var/folders/kt/3hz_76js3sxc80h8k3_fzskc0000gn/T/TemporaryItems/NSIRD_screencaptureui_0lCkz9/Screenshot 2026-03-17 at 5.03.30 PM.png\" /Users/amandalu/Documents/03-Projects/personal-website/public/proj-translator.png)",
+      "Bash(cp \"/var/folders/kt/3hz_76js3sxc80h8k3_fzskc0000gn/T/TemporaryItems/NSIRD_screencaptureui_hTGxgf/Screenshot 2026-03-17 at 5.04.20 PM.png\" /Users/amandalu/Documents/03-Projects/personal-website/public/proj-precinct.png)",
+      "Bash(cp \"/var/folders/kt/3hz_76js3sxc80h8k3_fzskc0000gn/T/TemporaryItems/NSIRD_screencaptureui_bPmxVN/Screenshot 2026-03-17 at 5.05.11 PM.png\" /Users/amandalu/Documents/03-Projects/personal-website/public/proj-technotes.png)",
+      "Bash(cp \"/Users/amandalu/Desktop/Screenshot 2026-03-17 at 5.10.26 PM.png\" /Users/amandalu/Documents/03-Projects/personal-website/public/proj-dreamscope.png)",
+      "Bash(cp \"/Users/amandalu/Desktop/Screenshot 2026-03-17 at 5.10.00 PM.png\" /Users/amandalu/Documents/03-Projects/personal-website/public/proj-translator.png)",
+      "Bash(cp \"/Users/amandalu/Desktop/Screenshot 2026-03-17 at 5.09.40 PM.png\" /Users/amandalu/Documents/03-Projects/personal-website/public/proj-precinct.png)",
+      "Bash(cp \"/Users/amandalu/Desktop/Screenshot 2026-03-17 at 5.09.30 PM.png\" /Users/amandalu/Documents/03-Projects/personal-website/public/proj-technotes.png)",
+      "Bash(cp \"Screenshot 2026-03-17 at 5.10.26 PM.png\" /Users/amandalu/Documents/03-Projects/personal-website/public/proj-dreamscope.png)",
+      "Bash(cp \"Screenshot 2026-03-17 at 5.10.00 PM.png\" /Users/amandalu/Documents/03-Projects/personal-website/public/proj-translator.png)",
+      "Bash(cp \"Screenshot 2026-03-17 at 5.09.40 PM.png\" /Users/amandalu/Documents/03-Projects/personal-website/public/proj-precinct.png)",
+      "Bash(cp \"Screenshot 2026-03-17 at 5.09.30 PM.png\" /Users/amandalu/Documents/03-Projects/personal-website/public/proj-technotes.png)",
+      "Bash(find /Users/amandalu/Desktop -name *.png -newer /Users/amandalu/Desktop/.DS_Store)",
+      "Bash(find /Users/amandalu/Desktop -name *.png)",
+      "Bash(pub=\"/Users/amandalu/Documents/03-Projects/personal-website/public\" find \"/Users/amandalu/Desktop\" -name \"*.png\")",
+      "Bash(while IFS= read -r f)",
+      "Bash(do echo:*)",
+      "Bash(done)",
+      "Bash(python3:*)"
     ]
   }
 }

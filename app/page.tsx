@@ -5,6 +5,26 @@ const projects = [
     demo: 'https://d27bzuqp3g5xga.cloudfront.net/',
     github: 'https://github.com/ilong4rennes/dreamscope',
     tech: ['AWS ECS', 'NestJS', 'BullMQ', 'Redis', 'PostgreSQL', 'OpenAI GPT', 'React'],
+    image: '/proj-dreamscope.png',
+    grayscale: true,
+  },
+  {
+    title: 'AI Translator Service',
+    tagline: "Bolted an LLM-powered translation microservice onto a live forum and made language barriers someone else's problem.",
+    demo: null,
+    github: 'https://github.com/313-Team-Turtles/translator-service',
+    tech: ['Node.js', 'MongoDB', 'Flask', 'Azure', 'GitHub Actions', 'JavaScript'],
+    image: '/proj-translator.png',
+    grayscale: true,
+  },
+  {
+    title: 'Precinct',
+    tagline: 'Engineered a full-stack crime database with 100% test coverage.',
+    demo: null,
+    github: 'https://github.com/ilong4rennes/crime-tracking-sys',
+    tech: ['Ruby on Rails', 'React', 'SQLite', 'REST API', 'Token Auth'],
+    image: '/proj-precinct.png',
+    grayscale: false,
   },
   {
     title: 'Tech Notes',
@@ -12,6 +32,8 @@ const projects = [
     demo: 'https://ilong4rennes.github.io/tech-notes/',
     github: 'https://github.com/ilong4rennes/tech-notes',
     tech: ['MkDocs', 'Markdown', 'GitHub Pages', 'Python'],
+    image: '/proj-technotes.png',
+    grayscale: false,
   },
 ];
 
@@ -23,6 +45,7 @@ export default function Home() {
         <a href="#" className="text-base font-medium tracking-tight">Amanda Lu</a>
         <div className="flex items-center gap-8">
           <a href="#projects" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">Projects</a>
+          <a href="#experience" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">Experience</a>
           <a href="#about" className="text-sm text-gray-500 hover:text-gray-900 transition-colors">About</a>
         </div>
       </nav>
@@ -62,20 +85,33 @@ export default function Home() {
           {projects.map((project) => (
             <div
               key={project.title}
-              className="bg-gray-50 rounded-xl p-7 flex flex-col justify-between min-h-52 border border-gray-100 hover:border-gray-200 transition-colors"
+              className="relative overflow-hidden bg-gray-50 rounded-xl p-7 flex flex-col justify-between min-h-56 border border-gray-100 hover:border-gray-200 transition-colors"
             >
-              <div>
+              {/* Background image — right side */}
+              {project.image && (
+                <div
+                  className="absolute inset-y-0 right-0 w-3/5 bg-cover bg-center"
+                  style={{ backgroundImage: `url(${project.image})`, filter: project.grayscale ? 'grayscale(100%)' : 'none' }}
+                />
+              )}
+              {/* Gradient fade: solid left → transparent right */}
+              <div
+                className="absolute inset-0 pointer-events-none"
+                style={{ background: 'linear-gradient(to right, #f9fafb 40%, #f9fafbcc 60%, transparent)' }}
+              />
+              {/* Content */}
+              <div className="relative z-10">
                 <h3 className="text-base font-semibold text-gray-900 mb-2">{project.title}</h3>
-                <p className="text-sm text-gray-500 leading-relaxed mb-6">{project.tagline}</p>
+                <p className="text-sm text-gray-500 leading-relaxed mb-6 max-w-[55%]">{project.tagline}</p>
               </div>
-              <div>
-                <div className="flex items-center gap-3 mb-5">
+              <div className="relative z-10">
+                <div className="flex items-center gap-3 mb-4">
                   {project.demo && (
                     <a
                       href={project.demo}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-xs font-medium bg-white border border-gray-200 text-gray-700 px-4 py-1.5 rounded-full hover:bg-gray-50 transition-colors"
+                      className="text-xs font-medium bg-white border border-gray-200 text-gray-700 px-4 py-1.5 rounded-full hover:bg-gray-100 transition-colors"
                     >
                       Live
                     </a>
@@ -85,14 +121,65 @@ export default function Home() {
                       href={project.github}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-xs font-medium bg-white border border-gray-200 text-gray-700 px-4 py-1.5 rounded-full hover:bg-gray-50 transition-colors"
+                      className="text-xs font-medium bg-white border border-gray-200 text-gray-700 px-4 py-1.5 rounded-full hover:bg-gray-100 transition-colors"
                     >
                       GitHub
                     </a>
                   )}
                 </div>
-                <p className="text-xs text-gray-400">{project.tech.join(', ')}</p>
+                <p className="text-xs text-gray-400 max-w-[60%]">{project.tech.join(', ')}</p>
               </div>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      {/* Experiences */}
+      <section id="experience" className="max-w-5xl mx-auto px-8 pb-28">
+        <h2 className="text-base font-medium text-gray-900 mb-12">Experience</h2>
+        <div className="divide-y divide-gray-100">
+          {[
+            {
+              role: 'Software Engineer Intern',
+              company: 'GameChanger by Dick\'s Sporting Goods',
+              description: 'Developed full-stack tools to evaluate computer vision models for real-world sports analytics.',
+              logo: '/logo-gamechanger.jpg',
+              logoH: 'h-8',
+            },
+            {
+              role: 'Full Stack Developer',
+              company: 'Scotty Labs',
+              description: 'Built tools for CMU students, engineering APIs, data models, and systems that actually scale.',
+              logo: '/logo-scottylabs.png',
+              logoH: 'h-12',
+            },
+            {
+              role: 'Research Assistant',
+              company: 'CMU Statistics and Data Science Department',
+              description: 'Engineered data pipelines to standardize and reconcile a 65K+ NSF dataset.',
+              logo: '/logo-cmu.png',
+              logoH: 'h-10',
+            },
+            {
+              role: 'Business Strategy Intern',
+              company: 'Jaguar Land Rover',
+              description: "Dissected China's EV battery economy and rebuilt it into insights that drove real decisions.",
+              logo: '/logo-jlr.png',
+              logoH: 'h-8',
+            },
+          ].map((exp) => (
+            <div key={exp.company} className="py-8 flex items-center justify-between gap-8">
+              <div>
+                <p className="text-sm font-semibold text-gray-900 mb-2">
+                  {exp.role} @ {exp.company}
+                </p>
+                <p className="text-sm text-gray-500 leading-relaxed">{exp.description}</p>
+              </div>
+              <img
+                src={exp.logo}
+                alt={exp.company}
+                className={`${exp.logoH} w-auto object-contain flex-shrink-0 opacity-60 grayscale`}
+              />
             </div>
           ))}
         </div>
