@@ -149,7 +149,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="max-w-5xl mx-auto px-8 pb-12">
-        <p className="text-xs text-gray-400">© 2025 Amanda Lu</p>
+        <p className="text-xs text-gray-400">© 2026 Amanda Lu</p>
       </footer>
     </div>
   );
