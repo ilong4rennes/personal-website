@@ -1,28 +1,23 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap');
 
 :root {
   --background: #ffffff;
-  --foreground: #292929;
+  --foreground: #1a1a1a;
+  --muted: #6b7280;
+  --border: #e5e7eb;
+  --card: #f9fafb;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #181818e1;
-    --foreground: #ededed;
-  }
+html {
+  scroll-behavior: smooth;
 }
 
-html, body {
+body {
   color: var(--foreground);
   background: var(--background);
-  font-family: 'Roboto', sans-serif;
-}
-
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
 }
