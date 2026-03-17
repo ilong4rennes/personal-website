@@ -2,7 +2,7 @@ const projects = [
   {
     title: 'Dream Scope',
     tagline: 'AI platform that tries to make sense of the weirdest thing humans produce: their dreams.',
-    demo: 'd27bzuqp3g5xga.cloudfront.net/',
+    demo: 'https://d27bzuqp3g5xga.cloudfront.net/',
     github: 'https://github.com/ilong4rennes/dreamscope',
     tech: ['AWS ECS', 'NestJS', 'BullMQ', 'Redis', 'PostgreSQL', 'OpenAI GPT', 'React'],
   },
